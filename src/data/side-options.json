@@ -1,0 +1,822 @@
+[
+  {
+    "id": "potato-chips",
+    "name": "Crispy Potato Chips",
+    "tier": "Basic",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon Wedges",
+    "tier": "Basic",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "pineapple",
+    "name": "Sliced Pineapple",
+    "tier": "Basic",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "coleslaw",
+    "name": "Tangy Cole Slaw",
+    "tier": "Basic",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "hawaiian-coleslaw",
+    "name": "Hawaiian Cole Slaw",
+    "tier": "Basic",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "pasta-salad",
+    "name": "Pasta Salad Vinaigrette",
+    "tier": "Basic",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "carrots",
+    "name": "Roasted Baby Carrots",
+    "tier": "Basic",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "corn",
+    "name": "Corn Kernels with Garlic",
+    "tier": "Basic",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "mexican-rice",
+    "name": "Mexican Rice",
+    "tier": "Basic",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "hawaiian-rice",
+    "name": "Hawaiian Rice",
+    "tier": "Basic",
+    "tags": [
+      "V"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "wild-rice",
+    "name": "Wild Rice Pilaf",
+    "tier": "Basic",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "greek-rice",
+    "name": "Greek Rice",
+    "tier": "Basic",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "white-rice",
+    "name": "White Rice",
+    "tier": "Basic",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0
+  },
+  {
+    "id": "caesar",
+    "name": "Caesar Salad",
+    "tier": "Deluxe",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "green-salad",
+    "name": "Traditional Green Salad",
+    "tier": "Deluxe",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "potato-salad",
+    "name": "Home Style Potato Salad",
+    "tier": "Deluxe",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "macaroni-salad",
+    "name": "Macaroni Salad",
+    "tier": "Deluxe",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "hawaiian-macaroni-salad",
+    "name": "Hawaiian Style Macaroni Salad",
+    "tier": "Deluxe",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "green-beans",
+    "name": "Green Beans Amandine",
+    "tier": "Deluxe",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "cornbread-dressing",
+    "name": "Cornbread Dressing (Stuffing)",
+    "tier": "Deluxe",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "green-bean-casserole",
+    "name": "Green Bean Casserole",
+    "tier": "Deluxe",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "corn-cob",
+    "name": "Corn on the Cob",
+    "tier": "Deluxe",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "refried-beans",
+    "name": "Refried Beans",
+    "tier": "Deluxe",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "black-beans",
+    "name": "Black Beans",
+    "tier": "Deluxe",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "penne-marinara",
+    "name": "Penne Pasta in Marinara Sauce",
+    "tier": "Deluxe",
+    "tags": [
+      "V"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "penne-alfredo",
+    "name": "Penne Pasta in Alfredo Sauce",
+    "tier": "Deluxe",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "penne-red-pepper",
+    "name": "Penne Pasta in Fire Roasted Red Pepper Alfredo Sauce",
+    "tier": "Deluxe",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "coconut-rice",
+    "name": "Coconut Rice",
+    "tier": "Deluxe",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.25
+  },
+  {
+    "id": "spring-mix",
+    "name": "Spring Mix Salad",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "mixed-greens",
+    "name": "Mixed Greens Salad",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "greek-salad",
+    "name": "Greek Salad",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "fresh-fruit-salad",
+    "name": "Fresh Fruit Salad",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "mac-cheese",
+    "name": "Macaroni & Cheese",
+    "tier": "Gourmet",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "yukon-potatoes",
+    "name": "Roasted Yukon Gold Potatoes",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "mashed-potatoes",
+    "name": "Mashed Potatoes with Beef Gravy",
+    "tier": "Gourmet",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "garlic-mashed-potatoes",
+    "name": "Garlic Mashed Potatoes with Beef Gravy",
+    "tier": "Gourmet",
+    "tags": [
+      "GF"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "breakfast-potatoes",
+    "name": "Breakfast Potatoes O’Brien",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "haricot-vert",
+    "name": "Haricot Vert",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "italian-green-beans",
+    "name": "Italian Green Beans",
+    "tier": "Gourmet",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "italian-meatballs",
+    "name": "Italian Meatballs in Marinara",
+    "tier": "Gourmet",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 0.75
+  },
+  {
+    "id": "pink-lady-salad",
+    "name": "Pink Lady Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "spinach-pear",
+    "name": "Spinach & Pear Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "kale-strawberry",
+    "name": "Kale & Strawberry Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "tropical-salad",
+    "name": "Tropical Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "southwestern-salad",
+    "name": "Southwestern Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "italian-arugula-kale",
+    "name": "Italian Arugula & Kale Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "asian-salad",
+    "name": "Asian Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "greek-orzo",
+    "name": "Greek Orzo Pasta Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "veggie-fajitas",
+    "name": "Veggie Fajitas",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "sauteed-vegetables",
+    "name": "Sautéed Vegetables",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "steamed-vegetables",
+    "name": "Steamed Fresh Vegetables",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "roasted-cauliflower",
+    "name": "Roasted Cauliflower",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "steamed-broccoli",
+    "name": "Steamed Broccoli",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "baked-potatoes",
+    "name": "Baked Potatoes",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "scalloped-potatoes",
+    "name": "Scalloped Potatoes",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "potatoes-au-gratin",
+    "name": "Potatoes au Gratin",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "roasted-yams",
+    "name": "Fresh Oven Roasted Yams",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "candied-yams",
+    "name": "Candied Yams",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "german-potato-salad",
+    "name": "Hot German Potato Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "dill-potato-salad",
+    "name": "Sour Cream & Dill Potato Salad",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "quinoa-pilaf",
+    "name": "Quinoa Pilaf",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF",
+      "Veg"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "red-beans-andouille",
+    "name": "Red Beans and Andouille Sausage",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "GF"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "penne-meat-sauce",
+    "name": "Penne Pasta in Meat Sauce",
+    "tier": "Chef’s Specialty",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 1.25
+  },
+  {
+    "id": "cheese-ravioli",
+    "name": "Cheese Ravioli in Venetian Cream Sauce",
+    "tier": "Upscale",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 1.75
+  },
+  {
+    "id": "cheese-tortellini",
+    "name": "Cheese Tortellini in Alfredo Sauce",
+    "tier": "Upscale",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 1.75
+  },
+  {
+    "id": "beef-chili",
+    "name": "Beef Chili",
+    "tier": "Upscale",
+    "tags": [
+      "GF"
+    ],
+    "delta": 1.75
+  },
+  {
+    "id": "mediterranean-vegetables",
+    "name": "Grilled Mediterranean Vegetables",
+    "tier": "Upscale",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.75
+  },
+  {
+    "id": "fruit-tray",
+    "name": "Fresh Fruit Tray",
+    "tier": "Upscale",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 1.75
+  },
+  {
+    "id": "southwestern-vegetables",
+    "name": "Southwestern Grilled Vegetables",
+    "tier": "Elegant",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 2.25
+  },
+  {
+    "id": "tropical-vegetables",
+    "name": "Tropical Grilled Vegetables",
+    "tier": "Elegant",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 2.25
+  },
+  {
+    "id": "farfalle-lemon",
+    "name": "Farfalle Pasta in Lemon Butter Sauce",
+    "tier": "Elegant",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 2.25
+  },
+  {
+    "id": "petite-carrots",
+    "name": "Grilled Petite Carrots",
+    "tier": "Elegant",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 2.25
+  },
+  {
+    "id": "broccolini",
+    "name": "Roasted Garlic Broccolini",
+    "tier": "Elegant",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 2.25
+  },
+  {
+    "id": "tropical-fruit-tray",
+    "name": "Tropical Fruit Tray",
+    "tier": "Elegant",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 2.25
+  },
+  {
+    "id": "antipasto",
+    "name": "Deluxe Antipasto Platter",
+    "tier": "Premium",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "vegetarian-lasagna",
+    "name": "Vegetarian Lasagna",
+    "tier": "Premium",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "meat-lasagna",
+    "name": "Meat Lasagna",
+    "tier": "Premium",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "asparagus",
+    "name": "Grilled Fresh Asparagus",
+    "tier": "Premium",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "french-fries",
+    "name": "French Fries",
+    "tier": "Premium",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "sweet-potato-fries",
+    "name": "Sweet Potato Fries",
+    "tier": "Premium",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "potato-pancakes",
+    "name": "Mini Potato Pancakes",
+    "tier": "Premium",
+    "tags": [
+      "GF",
+      "V"
+    ],
+    "delta": 3.25
+  },
+  {
+    "id": "butternut-ravioli",
+    "name": "Butternut Squash Ravioli",
+    "tier": "Exceptional",
+    "tags": [
+      "Veg"
+    ],
+    "delta": 4.25
+  },
+  {
+    "id": "penne-tequila",
+    "name": "Penne Pasta Tequila Lime Chipotle Cream Sauce with Chicken",
+    "tier": "Exceptional",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 4.25
+  },
+  {
+    "id": "farfalle-red-pepper",
+    "name": "Farfalle Pasta Red Pepper Alfredo Sauce with Chicken",
+    "tier": "Exceptional",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 4.25
+  },
+  {
+    "id": "farfalle-alfredo",
+    "name": "Farfalle Pasta Alfredo Sauce with Chicken",
+    "tier": "Exceptional",
+    "tags": [
+      "Side dish"
+    ],
+    "delta": 4.25
+  },
+  {
+    "id": "quinoa-farro",
+    "name": "Quinoa/Farro Pilaf",
+    "tier": "Exceptional",
+    "tags": [
+      "V"
+    ],
+    "delta": 4.25
+  }
+]
