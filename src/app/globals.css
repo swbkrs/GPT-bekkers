@@ -783,6 +783,20 @@ h1, h2, h3 { font-family: var(--font-serif), serif; }
 .estimate-total strong { font-family: var(--font-serif), serif; font-size: 2.1rem; line-height: 1; }
 .estimate-empty { color: rgba(255,255,255,0.7); }
 .estimate-note { color: rgba(255,255,255,0.62); font-size: 0.68rem; margin: 1rem 0 0; }
+.estimate-continue {
+  background: var(--paper);
+  border: 0;
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.05em;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 0.65rem 0.8rem;
+  text-transform: uppercase;
+  width: 100%;
+}
 
 .selected-menu-strip {
   align-items: center;

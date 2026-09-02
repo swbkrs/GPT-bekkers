@@ -189,10 +189,12 @@ function SideSwapDialog({
     };
   }, [onClose]);
 
-  const filtered = options.filter((option) =>
-    `${option.name} ${option.tier} ${option.tags.join(" ")}`
-      .toLowerCase()
-      .includes(query.toLowerCase()),
+  const filtered = options.filter(
+    (option) =>
+      option.name !== current.name &&
+      `${option.name} ${option.tier} ${option.tags.join(" ")}`
+        .toLowerCase()
+        .includes(query.toLowerCase()),
   );
 
   return (
@@ -339,10 +341,14 @@ function EstimateCard({
   orderType,
   menu,
   pricing,
+  step,
+  onContinue,
 }: {
   orderType: OrderType;
   menu?: ToGoMenu;
   pricing: ReturnType<typeof calculateToGo>;
+  step: Step;
+  onContinue: () => void;
 }) {
   return (
     <aside className="estimate-card" aria-label="Live estimate">
@@ -360,6 +366,11 @@ function EstimateCard({
             <div><dt>Tax 7.75%</dt><dd>{formatCurrency(pricing.tax)}</dd></div>
           </dl>
           <div className="estimate-total"><span>Total</span><strong>{formatCurrency(pricing.total)}</strong></div>
+          {step === 2 || step === 3 ? (
+            <button className="estimate-continue" onClick={onContinue} type="button">
+              {step === 2 ? "Customize selected menu" : "Review estimate"} →
+            </button>
+          ) : null}
         </>
       ) : (
         <p className="estimate-empty">Choose a published menu to see the itemized total.</p>
@@ -532,7 +543,13 @@ export function ToGoFlow({
             </>
           ) : null}
         </section>
-        <EstimateCard menu={menu} orderType={orderType} pricing={pricing} />
+        <EstimateCard
+          menu={menu}
+          onContinue={() => goTo(step === 2 ? 3 : 4)}
+          orderType={orderType}
+          pricing={pricing}
+          step={step}
+        />
       </div>
 
       {menu ? <div className="sticky-total"><div><span>Total</span><strong>{formatCurrency(pricing.total)}</strong><small>{pricing.billedGuests} billed guests · tax included</small></div><button onClick={() => step < 4 ? goTo((step + 1) as Step) : window.print()} type="button">{step < 4 ? "Continue" : "Print"} →</button></div> : null}

@@ -22,9 +22,13 @@ const steps = ["Event", "Menu", "Service", "Review"];
 function FullServiceEstimate({
   menu,
   pricing,
+  step,
+  onContinue,
 }: {
   menu?: FullServiceMenu;
   pricing: ReturnType<typeof calculateFullService>;
+  step: Step;
+  onContinue: () => void;
 }) {
   return (
     <aside className="estimate-card fs-estimate" aria-label="Live Full Service estimate">
@@ -47,6 +51,11 @@ function FullServiceEstimate({
           </dl>
           <div className="estimate-total"><span>Total</span><strong>{formatCurrency(pricing.total)}</strong></div>
           <p className="estimate-note">Tax includes the required gratuity. No card fee is added.</p>
+          {step === 2 || step === 3 ? (
+            <button className="estimate-continue" onClick={onContinue} type="button">
+              {step === 2 ? "Plan service" : "Review proposal"} →
+            </button>
+          ) : null}
         </>
       ) : (
         <p className="estimate-empty">Choose a published menu to see the full service stack.</p>
@@ -227,7 +236,12 @@ export function FullServiceFlow() {
             </>
           ) : null}
         </section>
-        <FullServiceEstimate menu={menu} pricing={pricing} />
+        <FullServiceEstimate
+          menu={menu}
+          onContinue={() => goTo(step === 2 ? 3 : 4)}
+          pricing={pricing}
+          step={step}
+        />
       </div>
 
       {menu ? <div className="sticky-total"><div><span>Total</span><strong>{formatCurrency(pricing.total)}</strong><small>Full service · required gratuity included</small></div><button onClick={() => step < 4 ? goTo((step + 1) as Step) : window.print()} type="button">{step < 4 ? "Continue" : "Print"} →</button></div> : null}
